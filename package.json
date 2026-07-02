@@ -1,0 +1,22 @@
+{
+  "name": "onepace-extended-stremio",
+  "version": "1.0.0",
+  "description": "Stremio addon providing One Pace Extended Cuts from the official RSS feed, designed to work alongside com.onepace.fedew.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "node export-static.js"
+  },
+  "keywords": [
+    "stremio",
+    "onepace",
+    "one-piece",
+    "addon"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "fast-xml-parser": "^4.5.1",
+    "stremio-addon-sdk": "^1.6.10"
+  }
+}
